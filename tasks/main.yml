@@ -1,0 +1,7 @@
+---
+- include: install.yml
+- include: updates.yml
+- include: selinux.yml
+- include: fail2ban.yml
+- include: firewalld.yml
+- include: ssh.yml
